@@ -9,22 +9,65 @@
 </head>
 <body>
     <header>
-            <div class="container text-center">
-        <div class="row">
-            <div class="col">
-            <p>Меню</p>
+    <div class="container">
+        <div class="header-row d-flex justify-content-between align-items-center">
+            <div class="left">
+                <p>Меню</p>
             </div>
-            <div class="col">
-            <p>Авторы</p>
-            </div>
-            <div class="col">
-            <p>Подробнее</p>
-            </div>
-            <div class="col">
-            <p>Жертвоприношение деньгами</p>
+            <div class="right d-flex gap-4">
+                <p>Авторы</p>
+                <p>Подробнее</p>
+                <p>Жертвоприношение деньгами</p>
             </div>
         </div>
     </div>
-    </header>
+</header>
+<main class="container mt-5">
+    <h1 class="mb-4 text-center">Наши товары</h1>
+    
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <!-- Карточка товара -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ab/Diamond_JE3_BE3.png/revision/latest/thumbnail/width/360/height/360?cb=20230924193138" class="card-img-top" alt="Товар 1">
+                <div class="card-body">
+                    <h5 class="card-title">Диамонд</h5>
+                    <p class="card-text">Описание товара.</p>
+                    <p class="price">Цена: 933₽</p>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-warning w-100">Купить</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ещё карточка -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Gold_Ingot_JE4_BE2.png/revision/latest?cb=20200224211607" class="card-img-top" alt="Золотой Слиток">
+                <div class="card-body">
+                    <h5 class="card-title">Злотый</h5>
+                    <p class="card-text">Отличный выбор для...</p>
+                    <p class="price">Цена: 0911₽</p>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-warning w-100">Купить</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- И ещё одна -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/26/Netherite_Ingot_JE1_BE2.png/revision/latest?cb=20220318055311" class="card-img-top" alt="Товар 3">
+                <div class="card-body">
+                    <h5 class="card-title">Нетзерите</h5>
+                    <p class="card-text">Оверпрайс говно.</p>
+                    <p class="price">Цена: 1488₽</p>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-warning w-100">Купить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer class="text-center mt-5 py-4 bg-dark text-white">
+        &copy; 2025 Cайт Говна. Все права не защищены и никогда не будут.
+    </footer>
 </body>
 </html>

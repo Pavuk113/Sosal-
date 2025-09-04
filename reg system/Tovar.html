@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар - Название</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <!-- Хедер (можно скопировать из index.html) -->
+    <header>
+        <div class="container">
+            <div class="header-row d-flex justify-content-between align-items-center">
+                <div class="left">
+                    <p class="logo">Меню</p>
+                </div>
+                <div class="right d-flex gap-4">
+                    <p>Авторы</p>
+                    <p>Подробнее</p>
+                    <p>Жертвоприношение деньгами</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Страница товара -->
+    <main class="container mt-5">
+        <div class="row">
+            <!-- Изображение -->
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/600x400" alt="Товар" class="img-fluid rounded shadow">
+            </div>
+
+            <!-- Информация о товаре -->
+            <div class="col-md-6">
+                <h1 class="mb-3">Название товара</h1>
+                <p class="text-muted mb-3">Категория: Эпические товары</p>
+                <p class="lead">Это подробное описание товара. Здесь можно рассказать о его характеристиках, преимуществах, материалах и любой другой полезной информации, которая поможет покупателю сделать выбор.</p>
+                <p class="h4 text-success mt-4 mb-4">Цена: 1999₽</p>
+                <button class="btn btn-warning btn-lg">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <!-- Характеристики -->
+        <div class="row mt-5">
+            <div class="col">
+                <h4>Характеристики:</h4>
+                <ul>
+                    <li>Материал: 100% фантазия</li>
+                    <li>Размер: средний</li>
+                    <li>Производство: вымышленная страна</li>
+                    <li>Гарантия: до конца времён</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="text-center mt-5 py-4 bg-dark text-white">
+        &copy; 2025 Пример магазина. Все права защищены.
+    </footer>
+
+</body>
+</html>
